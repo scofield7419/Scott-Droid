@@ -70,7 +70,7 @@
 ```
 Scofield.Phil
 
-email: feish7419@163.com
+Email: feish7419@163.com
 
 move fast, break things.
 ```

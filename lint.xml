@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/example/fragment/PlayerFramgment.java" />
+        <ignore path="src/com/example/fragment/RapperFramgment.java" />
+        <ignore path="src/com/example/fragment/SongListFramgment.java" />
+        <ignore path="src/com/example/service/RapperService.java" />
+    </issue>
+</lint>

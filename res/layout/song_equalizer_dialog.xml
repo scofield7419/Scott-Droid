@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/song_info_dialog_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="6" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.example.view.MyVerticalSeekBar
+                android:id="@+id/song_equalizer_dialog_band1_seekbar"
+                style="@style/Widget.SeekBar.Normal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:max="100"
+                android:thumbOffset="8dp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band1_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="+100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band1_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:text="-100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.example.view.MyVerticalSeekBar
+                android:id="@+id/song_equalizer_dialog_band2_seekbar"
+                style="@style/Widget.SeekBar.Normal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:max="100"
+                android:thumbOffset="8dp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band2_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="+100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band2_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:text="-100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.example.view.MyVerticalSeekBar
+                android:id="@+id/song_equalizer_dialog_band3_seekbar"
+                style="@style/Widget.SeekBar.Normal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:max="100"
+                android:thumbOffset="8dp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band3_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="+100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band3_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:text="-100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.example.view.MyVerticalSeekBar
+                android:id="@+id/song_equalizer_dialog_band4_seekbar"
+                style="@style/Widget.SeekBar.Normal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:max="100"
+                android:thumbOffset="8dp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band4_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="+100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band4_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:text="-100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <com.example.view.MyVerticalSeekBar
+                android:id="@+id/song_equalizer_dialog_band5_seekbar"
+                style="@style/Widget.SeekBar.Normal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:max="100"
+                android:thumbOffset="8dp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band5_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="+100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/song_equalizer_dialog_band5_down"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:text="-100db"
+                android:textColor="@color/text_lyric_show"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="重低音增强："
+            android:textColor="@color/text_lyric_show"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/song_bass_dialog_seekbar"
+            style="@style/Widget.SeekBar.Normal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:thumbOffset="8dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1.5" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/horizonal_bar" />
+
+        <Button
+            android:id="@+id/song_equalizer_dialog_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:paddingTop="4dp"
+            android:text="重  置"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/song_equalizer_dialog_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_selector"
+            android:paddingBottom="4dp"
+            android:paddingLeft="26dp"
+            android:paddingRight="26dp"
+            android:paddingTop="4dp"
+            android:text="保  存"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+</LinearLayout>

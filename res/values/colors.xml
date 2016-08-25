@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_white_light">#ecebeb</color>
+    <color name="text_white_light2">#e2e2e2</color>
+    <color name="text_dark">#757575</color>
+
+    <color name="text_lyric_unshow">#757575</color>
+    <color name="text_lyric_show">#ecebeb</color>
+</resources>

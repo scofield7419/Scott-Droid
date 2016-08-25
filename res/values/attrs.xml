@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyPagerView">
+        <attr name="defaultScreen" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="MyLyricView">
+        <attr name="textSizeShow" format="dimension" />
+        <attr name="textSizeUnshow" format="dimension" />
+        <attr name="textHeightShow" format="dimension" />
+    </declare-styleable>
+
+</resources>

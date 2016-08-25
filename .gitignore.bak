@@ -43,5 +43,5 @@ Temporary Items
 .apdisk
 /bin
 /gen
-# .classpath
-# .lint.xml
+.classpath
+.lint.xml
